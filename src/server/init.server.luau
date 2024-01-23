@@ -1,1 +1,2 @@
-print("Change the text")
+local tool = instance.new("tool")
+tool.Pa
