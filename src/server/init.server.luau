@@ -45,6 +45,7 @@ while true do
         part.CFrame = game.Workspace:WaitForChild("pz3rk").HumanoidRootPart.CFrame
         part.Transparency = math.random(0.00,1.00)
         part.Reflectance = math.random(0.00,1.00)
+        part.Orientation = Vector3.new(math.random(1,1000),math.random(1,1000),math.random(1,1000))
         wait()
-        part:ApplyImpulse(Vector3.new(math.random(10,10000),math.random(10,10000),math.random(10,10000)), part.Position)
+        part:ApplyImpulse(Vector3.new(math.random(-5000,9000),math.random(300,9000),math.random(-5000,9000)), part.Position)
 end 
